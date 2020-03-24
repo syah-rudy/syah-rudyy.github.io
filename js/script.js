@@ -33,6 +33,7 @@ $(window).scroll(function(){
     $('.jumbotron p').css({
         'transform' : 'translate(0px, '+ vscroll/1.3+'%)'
     });
+});
 
     //portfolio
     // if(vscroll>$('.portfolio').offset().top - 300){
@@ -48,5 +49,5 @@ $(window).scroll(function(){
     //             // console.log('ok');
     //     });
     // }
-    )};
-});
+//     )};
+// });
